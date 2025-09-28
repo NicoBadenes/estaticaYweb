@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio10</title>
+</head>
+<body>
+    <h2>Productos</h2>
+    <form id="formProductos">
+        <input type="text" name="nombre" placeholder="Nombre del producto" required />
+        <input type="number" name="precio" placeholder="Precio" required />
+        <button type="submit">Agregar</button>
+    </form>
+
+    <button id="borrarUltimo">Borrar último producto</button>
+
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+        </tr>
+        </thead>
+        <tbody id="tablaProductos"></tbody>
+    </table>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
